@@ -1,0 +1,41 @@
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav {
+    /* Para que funcione en Safari */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border: solid 0.1rem black; 
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 1rem black ;
+}
+
+nav ul {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+nav ul li a:hover{
+    transform: translateY(0.5rem);
+    background: rgba(0,0,0,0);
+}
+
+section {
+    width: 75%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: justify;
+}
+
+
